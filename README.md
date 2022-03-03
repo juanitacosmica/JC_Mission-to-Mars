@@ -40,6 +40,8 @@ From the script called [Mission_to_Mars_Challenge.ipynb](https://github.com/juan
 
 ![How it looks in the web app](/Resources/D3_img1.png)
 
+![This is the code so we can keep scrapping data in the web app](/Resources/D3_img2.png)
+
 All script screenshots results are avaialble for viewing on the [Resources Folder](https://github.com/juanitacosmica/JC_Mission-to-Mars/Resources).
 
 # Summary:

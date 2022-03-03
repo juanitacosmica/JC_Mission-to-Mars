@@ -1,5 +1,5 @@
 #Import Dependencies
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect
 from flask_pymongo import PyMongo
 import scraping
 
@@ -23,7 +23,7 @@ def scrape():
    mars = mongo.db.mars
    mars_data = scraping.scrape_all()
    mars.update_one({}, {"$set": mars_data}, upsert=True)
-   return "Scraping Successful!"
+   return redirect('/', code=302)
 
 #Run the code
 if __name__ == "__main__":
